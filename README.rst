@@ -19,7 +19,7 @@ local machine.  This will allow you to make commits without affecting anybody
 else.
 
 You should also set the **upstream** repo of your fork to be **this** repo, 
-``https://github.com/1313e/software-testing``. Your ``.git/config`` file
+``https://github.com/1313e/software-dev``. Your ``.git/config`` file
 should hence look like...
 
 .. code:: bash
@@ -31,11 +31,11 @@ should hence look like...
         logallrefupdates = true
     [remote "origin"]
         # Your username goes instead of 'JohnDoe'.
-        url = https://github.com/JohnDoe/software-testing
+        url = https://github.com/JohnDoe/software-dev
         fetch = +refs/heads/*:refs/remotes/origin/*
     [remote "upstream"]
         # Keep this as my username.
-        url = https://github.com/1313e/software-testing
+        url = https://github.com/1313e/software-dev
         fetch = +refs/heads/*:refs/remotes/upstream/*
     [branch "master"]
         remote = origin
@@ -82,6 +82,6 @@ Adjust the URLs here to point to your own Travis badge!
 
 .. code:: rst
 
-  .. |TRAVIS| image:: https://travis-ci.com/1313e/software-testing.svg?branch=master
+  .. |TRAVIS| image:: https://travis-ci.com/1313e/software-dev.svg?branch=master
     :alt: Travis Badge
-    :target: https://travis-ci.com/1313e/software-testing
+    :target: https://travis-ci.com/1313e/software-dev
