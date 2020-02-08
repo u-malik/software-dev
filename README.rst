@@ -4,12 +4,12 @@
 *Once you have your TRAVIS build running and your badge successfully added down the bottom of the README, you can use the above to add a shiny badge at the top of your repo.*
 
 
-*************************************
-ADACS + ASTRO3D Code Testing Workshop
-*************************************
+***************************************
+Software Dev, ADACS Astro Hackweek 2020
+***************************************
 
-This repository contains materials for the ADACS + ASTRO3D Code Testing
-workshop.
+This repository contains materials for the Software Dev session during the ADACS Astro hackweek 2020, forked from the ADACS + ASTRO3D Code Testing
+workshop 2019 (https://github.com/jseiler/software-testing).
 
 Fork the Repo
 =============
@@ -19,7 +19,7 @@ local machine.  This will allow you to make commits without affecting anybody
 else.
 
 You should also set the **upstream** repo of your fork to be **this** repo, 
-``https://github.com/jacobseiler/software-testing``. Your ``.git/config`` file
+``https://github.com/1313e/software-testing``. Your ``.git/config`` file
 should hence look like...
 
 .. code:: bash
@@ -35,7 +35,7 @@ should hence look like...
         fetch = +refs/heads/*:refs/remotes/origin/*
     [remote "upstream"]
         # Keep this as my username.
-        url = https://github.com/jacobseiler/software-testing
+        url = https://github.com/1313e/software-testing
         fetch = +refs/heads/*:refs/remotes/upstream/*
     [branch "master"]
         remote = origin
@@ -82,6 +82,6 @@ Adjust the URLs here to point to your own Travis badge!
 
 .. code:: rst
 
-  .. |TRAVIS| image:: https://travis-ci.com/jacobseiler/software-testing.svg?token=5c6Q56fcBuVVhRGKosZB&branch=master
+  .. |TRAVIS| image:: https://travis-ci.com/1313e/software-testing.svg?branch=master
     :alt: Travis Badge
-    :target: https://travis-ci.com/jacobseiler/software-testing
+    :target: https://travis-ci.com/1313e/software-testing
